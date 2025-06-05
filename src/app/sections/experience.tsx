@@ -24,7 +24,7 @@ export function Experiencie() {
                             </ul>
                         </div>
                         <div className="shadow-md rounded-md p-5 bg-white mb-5 w-full relative">
-                            <h3 className="text-xl font-bold">Analista de Sistemas</h3>
+                            <h3 className="text-xl font-bold">Desarrollador Fullstack</h3>
                             <p>FREELANCE</p>
                             <p>2022 - ACTUALIDAD</p>
                             <ul className="list-disc pl-5">
