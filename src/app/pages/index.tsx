@@ -6,7 +6,7 @@ export default function Init () {
             <div className="h-screen">
                 <AboutMe/>
             </div>
-            <div id="experiencie">
+            <div>
                 <Experiencie/>
             </div>
             <div id="projects">
