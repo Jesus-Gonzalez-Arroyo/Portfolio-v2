@@ -20,11 +20,11 @@ export function AboutMe() {
             </div>
             <div className="flex w-full h-screen items-center justify-center">
                 <div>
-                    <div className="flex gap-30 max-w-[80%] m-auto mt-10">
+                    <div className="flex gap-30 max-w-[80%] m-auto">
                         <div className="mb-10">
                             <p className="text-lg color-white">Soy Jesus</p>
                             <p className="text-5xl my-3">Analista y desarrollador de software</p>
-                            <p className="text-lg">Cuento con más de 3 años de experiencia en la creación de aplicaciones fullstack, robustas, escalables e interactivas.</p>
+                            <p className="text-lg">Cuento con más de 3 años de experiencia en la creación de aplicaciones fullstack robustas, escalables e interactivas.</p>
                             <div>
                                 <div className="flex items-center justify-between mt-5">
                                     <div>
