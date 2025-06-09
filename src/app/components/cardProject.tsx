@@ -1,44 +1,39 @@
 import { FaGithub } from 'react-icons/fa'
 
 interface StackItem {
-  name: string;
+    name: string;
 }
 
 interface CardProjectProps {
-  title: string;
-  description: string;
-  stack: StackItem[];
+    title: string;
+    description: string;
+    stack: StackItem[];
 }
 
-export function CardProject({stack=[], title="", description=""}: CardProjectProps) {
+export function CardProject({ stack = [], title = "", description = "" }: CardProjectProps) {
     return (
-        <div className="bg-blue-400 p-5 rounded-md h-[380px]">
-            <div className="w-full">
-                <img className="w-full h-[150px] object-cover rounded-md" src={'https://d8285fmxt3duy.cloudfront.net/public/articulos/img/java-script1.jpg'} alt="" />
-            </div>
-            <div className="flex gap-10 py-5 text-white">
-                <div>
-                    <div className="w-[70%]">
-                        <p className="text-lg mb-3">{title}</p>
-                        <p>{description}</p>
-                    </div>
-                    <div>
-                        <FaGithub size={28} />
-                    </div>
-                </div>
-                <div className="w-[30%]">
-                    <p className="text-lg mb-3">Tecnologias</p>
-                    <div>
-                        <ul className="flex flex-wrap gap-3">
-                            {
-                                stack.map((item = {name: ''}) => (
-                                    <li key={item.name} className="w-20 rounded-md bg-blue-200 text-center">{item.name}</li>
-                                ))
-                            }
-                        </ul>
+        <div>
+            <section className="mx-auto">
+                <div className="h-fit group">
+                    <div className="relative overflow-hidden">
+                        <img className="w-full h-full object-cover rounded-md" src={'https://d8285fmxt3duy.cloudfront.net/public/articulos/img/java-script1.jpg'} alt="" />
+
+                        <div className="absolute rounded-md h-full w-full bg-black/20 flex items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
+                            <div className='text-white'>
+                                <h1>{title}</h1>
+                                <p>{description}</p>
+                                <ol>
+                                    {
+                                        stack.map((item = { name: '' }) => (
+                                            <li key={item.name}>{item.name}</li>
+                                        ))
+                                    }
+                                </ol>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </section>
         </div>
     )
 }
