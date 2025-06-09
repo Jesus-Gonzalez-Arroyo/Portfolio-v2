@@ -1,6 +1,26 @@
 export function Experiencie() {
     return (
-        <div id="experiencie" className="mt-30 mb-[5%]">
+        <div id="experiencie" className="mb-[5%]">
+            <div className="w-full max-w-[80%] m-auto flex items-center justify-between gap-10 mt-10 mb-30 text-white">
+                <div className="w-[20%] h-30 rounded bg-blue-500 shadow-md flex items-center justify-center">
+                    <div className="text-center">
+                        <p className="text-4xl">3+</p>
+                        <p>Años de experiencia</p>
+                    </div>
+                </div>
+                <div className="w-[20%] h-30 rounded bg-blue-500 shadow-md flex items-center justify-center">
+                    <div className="text-center">
+                        <p className="text-4xl">30+</p>
+                        <p>Proyectos</p>
+                    </div>
+                </div>
+                <div className="w-[20%] h-30 rounded bg-blue-500 shadow-md flex items-center justify-center">
+                    <div className="text-center">
+                        <p className="text-4xl">5+</p>
+                        <p>Clientes satisfechos</p>
+                    </div>
+                </div>
+            </div>
             <div>
                 <h2 className="text-3xl text-center mt-10">Experiencia</h2>
                 <p className="text-center text-lg mt-3 max-w-[50%] m-auto">Como desarrollador he podido contribuir en muchos proyectos empresariales asi mismo personales, tales como landing pages, aplicaciones webs, moviles y de escritorio.</p>
