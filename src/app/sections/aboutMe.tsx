@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Icon from '../../../public/Gif Programer.gif'
+import Icon from '../../../public/image_developer.png'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { LuDownload } from "react-icons/lu";
 import { CgMail } from "react-icons/cg";
@@ -19,7 +19,7 @@ export function AboutMe() {
             </div>
             <div className="flex w-full h-screen items-center justify-center">
                 <div>
-                    <div className="flex gap-30 max-w-[80%] m-auto">
+                    <div className="flex items-center gap-30 max-w-[80%] m-auto">
                         <div className="mb-20">
                             <p className="text-3xl color-white">Soy Jesus</p>
                             <p className="text-7xl my-3">Analista y desarrollador de software</p>
