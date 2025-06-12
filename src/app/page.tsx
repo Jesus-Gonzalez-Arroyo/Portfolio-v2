@@ -1,8 +1,8 @@
-import Init from './pages/init/index'
+import Init from './init/index'
 
 export default function Home() {
   return (
-    <div className='gradient-body'>
+    <div>
       <Init/>
     </div>
   );

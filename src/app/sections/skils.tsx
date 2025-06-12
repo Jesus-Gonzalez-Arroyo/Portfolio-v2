@@ -15,22 +15,23 @@ const stackTech = [
     'https://miro.medium.com/v2/resize:fit:512/1*JEHLmWo6_SrpHPiP4AimIw.png',
     'https://camo.githubusercontent.com/ecd695fb1ffadab6633f9fcdffaeebc58f3cca722260f0dec7dc607bd9d0e740/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67',
     'https://img.icons8.com/color/512/sass.png',
-    'https://static-00.iconduck.com/assets.00/jest-icon-1855x2048-ifiupldr.png'
+    'https://static-00.iconduck.com/assets.00/jest-icon-1855x2048-ifiupldr.png',
+    'https://cdn-icons-png.flaticon.com/512/25/25231.png'
 ];
 
 export function Skils() {
     return (
         <div className="">
             <p className="text-3xl text-center mb-20">Tecnologias</p>
-            <div className="flex space-x-16 gap-5 overflow-hidden group w-[80%] m-auto">
-                <div className="flex items-center gap-10 animate-marquee space-x-16 group-hover:paused">
+            <div className="flex space-x-16 overflow-hidden group w-[66%] m-auto">
+                <div className="flex items-center gap-2 animate-marquee space-x-16 group-hover:paused">
                     {[...stackTech, ...stackTech].map((text, idx) => (
-                            <img loading="lazy" className="w-30 h-30 object-contain max-w-none" key={idx} src={text} alt="" />
+                        <img className="w-[100px] h-[100px] object-contain max-w-none" key={idx} src={text} alt="" />
                     ))}
                 </div>
-                <div className="flex items-center gap-10 animate-marquee space-x-16 group-hover:paused" aria-hidden={true}>
+                <div className="flex items-center gap-2 animate-marquee space-x-16 group-hover:paused" aria-hidden={true}>
                     {[...stackTech, ...stackTech].map((text, idx) => (
-                            <img loading="lazy" className="w-30 h-30 object-contain max-w-none" key={idx} src={text} alt="" />
+                        <img className="w-[100px] h-[100px] object-contain max-w-none" key={idx} src={text} alt="" />
                     ))}
                 </div>
             </div>
