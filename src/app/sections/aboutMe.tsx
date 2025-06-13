@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Icon from '../../../public/image_developer.png'
+import Dev from '../../../public/image_developer.png'
 import { FaLinkedinIn, FaGithub } from 'react-icons/fa'
 import { LuDownload } from "react-icons/lu";
 import { CgMail } from "react-icons/cg";
@@ -34,7 +34,7 @@ export function AboutMe() {
                             <Image
                                 width={400}
                                 height={400}
-                                src={Icon}
+                                src={Dev}
                                 alt=""
                             />
                         </div>
