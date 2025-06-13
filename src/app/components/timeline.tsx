@@ -4,14 +4,14 @@ interface studies {
 
 const experiences = [
     {
-        year: '2023 - PRESENTE',
-        title: 'Desarrollador frontend',
+        year: 'Abr 2023 - PRESENTE',
+        title: 'Desarrollador Frontend',
         company: 'Wigilabs',
         description:
             'Me encargo del desarrollo de las interfaces, las funcionalidades, consumo de aPIS, desarrollo componentes, implemento gateways de pago, testing y colaboro en algunas funciones del backend.',
     },
     {
-        year: '2022 - PRESENTE',
+        year: 'Feb 2022 - PRESENTE',
         title: 'Desarrollador Fullstack',
         company: 'Autónomo',
         description:
