@@ -15,19 +15,19 @@ export function Projects() {
             <div>
                 <div className="flex flex-wrap gap-5 w-[80%] max-w-[80%] m-auto">
                     <div className="w-[45%] m-auto min-w-[400px]">
-                        <CardProject title='Farmazul' image={Farmazul} alt='Farmazul' />
+                        <CardProject title='Farmazul' image={Farmazul} alt='Farmazul' id={'1'} />
                     </div>
                     <div className="w-[45%] m-auto min-w-[400px]">
-                        <CardProject title='Casazul' image={Casazul} alt='Casazul' />
+                        <CardProject title='Casazul' image={Casazul} alt='Casazul' id={'2'} />
                     </div>
                     <div className="w-[45%] m-auto min-w-[400px]">
-                        <CardProject title='JuniorDev' image={JuniorLading} alt='LandingPage junior dev' />
+                        <CardProject title='JuniorDev' image={JuniorLading} alt='LandingPage junior dev' id={'3'} />
                     </div>
                     <div className="w-[45%] m-auto min-w-[400px]">
-                        <CardProject title='CreditCard' image={CreditCard} alt='CreditCardComponent' />
+                        <CardProject title='CreditCard' image={CreditCard} alt='CreditCardComponent' id={'4'} />
                     </div>
                     <div className="w-[45%] m-auto min-w-[400px]">
-                        <CardProject title='CRUD Angular' image={Crud} alt='Crud con angular' />
+                        <CardProject title='CRUD Angular' image={Crud} alt='Crud con angular' id={'5'} />
                     </div>
                 </div>
             </div>

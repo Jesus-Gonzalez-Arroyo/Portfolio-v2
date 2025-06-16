@@ -1,13 +1,24 @@
-{
-    "1": {
+[
+    {
+        "id": "1",
         "name": "Farmazul",
+        "utilidad": "Mejora la gestion del negocio",
         "description": "Farmazul es un sistema de gestion, donde el usuario puede llevar un control sobre sus area de negocio como ventas, gastos, inventarios, gestion de usuarios, roles, reportes, etc.",
         "stack": [
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-            "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256",
-            "https://static-00.iconduck.com/assets.00/flask-icon-399x512-v0hqbifs.png",
-            "https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png",
-            "https://camo.githubusercontent.com/ecd695fb1ffadab6633f9fcdffaeebc58f3cca722260f0dec7dc607bd9d0e740/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67"
-        ]
+            {"name": "React", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"},
+            {"name": "Python", "url": "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256"},
+            {"name": "Flask", "url": "https://static-00.iconduck.com/assets.00/flask-icon-399x512-v0hqbifs.png"},
+            {"name": "Mongo DB", "url": "https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png"},
+            {"name": "Boostrapt", "url":"https://camo.githubusercontent.com/ecd695fb1ffadab6633f9fcdffaeebc58f3cca722260f0dec7dc607bd9d0e740/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67"}
+        ],
+        "images": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "color": "red",
+        "viewProject": false,
+        "urlProject": ""
     }
-}
+]

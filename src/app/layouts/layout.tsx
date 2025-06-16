@@ -36,7 +36,6 @@ export default function Layout({ children }: LayoutProps) {
                             Contactame a traves de los canales disponibles.
                         </p>
                     </div>
-
                     <div>
                         <h3 className="text-lg font-semibold mb-3">Contáctame</h3>
                         <ul className="space-y-2 text-gray-300">
