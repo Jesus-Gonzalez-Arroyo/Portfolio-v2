@@ -11,11 +11,11 @@ export function AboutMe() {
                 <div>
                     <div className="flex items-center gap-30 max-w-[80%] m-auto">
                         <div className="mb-20">
-                            <p className="text-3xl color-white">Soy Jesus</p>
-                            <p className="text-7xl my-3">Analista y desarrollador de software</p>
+                            <p className="text-3xl color-white">Hola, soy Jesus</p>
+                            <p className="text-5xl my-3 2xl:text-7xl">Analista y desarrollador de software</p>
                             <p className="text-lg">Cuento con 3 años de experiencia en la creación de aplicaciones fullstack robustas, escalables e interactivas.</p>
                             <div>
-                                <div className="flex items-center justify-between mt-5">
+                                <div className="flex flex-wrap gap-10 min-w-[300px] items-center justify-between mt-5 lg:flex-nowrap">
                                     <div>
                                         <button className="flex items-center gap-3 bg-blue-500 rounded-md px-8 py-3 text-white">
                                             Descargar CV

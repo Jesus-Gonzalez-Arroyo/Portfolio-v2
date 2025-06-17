@@ -5,10 +5,10 @@ export default function Init() {
     return (
         <div>
             <Layout>
-                <div className='h-[100vh] xl:h-[80vh]'>
+                <div className='h-[100vh] 2xl:h-[80vh]'>
                     <AboutMe />
                 </div>
-                <div className='sm:mb-[10%] xl:my-[0%] xl:mb-[5%]'>
+                <div className='mb-[10%] xl:my-[0%] xl:mb-[5%]'>
                     <Dates />
                 </div>
                 <div className='mb-40'>
