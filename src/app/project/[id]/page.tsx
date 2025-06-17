@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import Link from 'next/link'
 import Layout from '../../layouts/layout'
 import { BsArrowUpRight } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
@@ -13,22 +14,49 @@ import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 
 type StackItem = {
-  name: string;
-  url: string;
+    name: string;
+    url: string;
+};
+
+type StackSection = {
+    title: string;
+    descript: string;
 };
 
 type ProjectType = {
-  id: string;
-  name: string;
-  utilidad: string;
-  description: string;
-  stack: StackItem[];
-  images: Record<string, string>;
-  color: string;
-  viewProject: boolean;
-  urlProject: string;
+    id: string;
+    name: string;
+    utilidad: string;
+    description: string;
+    stack: StackItem[];
+    images: Record<string, string>;
+    color: string;
+    viewProject: boolean;
+    urlProject: string;
+    urlProjectGit: string;
+    sections: StackSection[]
 };
 
+const colors = {
+    "blue": "border-blue-500",
+    "red": "border-red-500",
+    "green": "border-green-500",
+    "purple": "border-purple-500",
+    "gray": "border-gray-500"
+}
+
+const colorsBg = {
+    "blue": "bg-blue-500",
+    "red": "bg-red-500",
+    "green": "bg-green-500",
+    "purple": "bg-purple-500",
+    "gray": "bg-gray-500"
+}
+
+const cursor = {
+    true: "cursor-pointer",
+    false: "pointer-events-none cursor-not-allowed"
+}
 
 export default function Project() {
     const params = useParams();
@@ -55,46 +83,42 @@ export default function Project() {
                     <p>{project?.description}</p>
                 </div>
                 <div className='flex items-center gap-5 mb-10'>
-                    <button className='py-2 px-6 bg-red-500 rounded'>
-                        <div className='flex gap-2 items-center'>
-                            <div>
-                                <p>{project?.viewProject ? 'Ver proyecto' : 'No disponible'}</p>
+                    <button className={`py-2 px-6 ${colorsBg[project?.color]} rounded ${cursor[project?.viewProject]}`}>
+                        <Link target="blank" href={`${project?.urlProject}`}>
+                            <div className='flex gap-2 items-center'>
+                                <div>
+                                    <p>{project?.viewProject ? 'Ver proyecto' : 'No disponible'}</p>
+                                </div>
+                                <div>
+                                    <BsArrowUpRight />
+                                </div>
                             </div>
-                            <div>
-                                <BsArrowUpRight />
-                            </div>
-                        </div>
+                        </Link>
                     </button>
-                    <button className='py-2 px-6 border-[1px] border-red-500 rounded'>
-                        <div className='flex gap-2 items-center'>
-                            <div>
-                                <p>Codigo fuente</p>
+                    <button className={`py-2 px-6 border-[1px] ${colors[project?.color]} rounded`}>
+                        <Link target="blank" href={`${project?.urlProjectGit}`}>
+                            <div className='flex gap-2 items-center'>
+                                <div>
+                                    <p>Codigo fuente</p>
+                                </div>
+                                <div>
+                                    <FaGithub />
+                                </div>
                             </div>
-                            <div>
-                                <FaGithub />
-                            </div>
-                        </div>
+                        </Link>
                     </button>
                 </div>
                 <div className="grid grid-cols-3 grid-rows-1 gap-7 mb-10">
-                    <div className='border-[2px] border-red-500 px-7 py-3 rounded h-[200px] flex items-center'>
-                        <div>
-                            <p className='text-3xl mb-3'>Title</p>
-                            <p className='text-lg'>Description</p>
-                        </div>
-                    </div>
-                    <div className='border-[2px] border-red-500 px-7 py-3 rounded h-[200px] flex items-center'>
-                        <div>
-                            <p className='text-3xl mb-3'>Title</p>
-                            <p className='text-lg'>Description</p>
-                        </div>
-                    </div>
-                    <div className='border-[2px] border-red-500 px-7 py-3 rounded h-[200px] flex items-center'>
-                        <div>
-                            <p className='text-3xl mb-3'>Title</p>
-                            <p className='text-lg'>Description</p>
-                        </div>
-                    </div>
+                    {
+                        project?.sections.map((item, idx) => (
+                            <div key={idx} className={`border-[2px] ${colors[project?.color]} px-7 py-3 rounded h-[200px] flex items-center`}>
+                                <div>
+                                    <p className='text-3xl mb-3'>{item.title}</p>
+                                    <p className='text-lg'>{item.descript}</p>
+                                </div>
+                            </div>
+                        ))
+                    }
                 </div>
                 <div className="grid grid-cols-3 grid-rows-1 gap-4">
                     <div className="col-span-3">
@@ -112,7 +136,7 @@ export default function Project() {
                         <Image className="w-full h-full object-cover rounded-md" src={JuniorLading} alt="Imagen 4" />
                     </div>
                 </div>
-                <div className="w-full border-[1px] border-red-500 px-10 py-10 rounded mb-50">
+                <div className={`w-full border-[1px] ${colors[project?.color]} px-10 py-10 rounded mb-50`}>
                     <p className="mb-8 text-xl">Construido con:</p>
                     <div>
                         <div className="flex items-center gap-2">

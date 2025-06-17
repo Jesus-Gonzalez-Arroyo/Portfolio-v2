@@ -7,7 +7,7 @@
         "stack": [
             {"name": "React", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"},
             {"name": "Python", "url": "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256"},
-            {"name": "Flask", "url": "https://static-00.iconduck.com/assets.00/flask-icon-399x512-v0hqbifs.png"},
+            {"name": "Flask", "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQidxvbGW2CXpFO4WEgjY5a_3B7jyaoem78NA&s"},
             {"name": "Mongo DB", "url": "https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png"},
             {"name": "Boostrapt", "url":"https://camo.githubusercontent.com/ecd695fb1ffadab6633f9fcdffaeebc58f3cca722260f0dec7dc607bd9d0e740/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67"}
         ],
@@ -17,8 +17,113 @@
             "3": "",
             "4": ""
         },
-        "color": "red",
+        "sections": [
+            {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas"},
+            {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas y ganancias"},
+            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios"}
+        ],
+        "color": "blue",
         "viewProject": false,
-        "urlProject": ""
+        "urlProject": "",
+        "urlProjectGit": ""
+    },
+    {
+        "id": "2",
+        "name": "Casazul",
+        "utilidad": "Mejora la gestion del negocio",
+        "description": "Casazul es un sistema de escritorio, donde el usuario puede llevar un control sobre sus area de negocio como ventas, gastos, inventarios, reportes, facturacion, etc.",
+        "stack": [
+            {"name": "Python", "url": "https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256"}
+        ],
+        "images": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "sections": [
+            {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas"},
+            {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas y ganancias"},
+            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios"}
+        ],
+        "color": "blue",
+        "viewProject": false,
+        "urlProject": "",
+        "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/Sistema-contable"
+    },
+    {
+        "id": "3",
+        "name": "Junior dev",
+        "utilidad": "Landing page para mostrar productos de enseñanza",
+        "description": "Junior dev es una pagina donde se muestran los servicios para aprender programacion",
+        "stack": [
+            {"name": "Next js", "url": "https://images-cdn.openxcell.com/wp-content/uploads/2024/07/24154156/dango-inner-2.webp"},
+            {"name": "Tailwind", "url": "https://miro.medium.com/v2/resize:fit:512/1*JEHLmWo6_SrpHPiP4AimIw.png"}
+        ],
+        "images": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "sections": [
+            {"title": "Enseñanza", "descript": "Buenos profesores, que enseñan todo paso a paso"},
+            {"title": "Sencillez", "descript": "La pagina es breve enfocada en la idea principal para ayudar al usuario"},
+            {"title": "Formulario", "descript": "Donde el usuario puede dejar sus datos y ser contactado"}
+        ],
+        "color": "green",
+        "viewProject": true,
+        "urlProject": "https://3691b063.junior-landing.pages.dev/",
+        "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/junior-landing"
+    },
+    {
+        "id": "4",
+        "name": "Credit Card Component",
+        "utilidad": "Componente para vizualizar tipos de tarjetas",
+        "description": "Credit card component permite indentificar el tipo de tarjeta por su numero y darle los estilos necesarios segun la entidad a la que pertenecezca.",
+        "stack": [
+            {"name": "React", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png"},
+            {"name": "Css", "url": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"}
+        ],
+        "images": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "sections": [
+            {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas"},
+            {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas y ganancias"},
+            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios"}
+        ],
+        "color": "purple",
+        "viewProject": true,
+        "urlProject": "https://darling-kataifi-32bbf9.netlify.app/",
+        "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/credit-card-component"
+    },
+    {
+        "id": "5",
+        "name": "Crud empleados",
+        "utilidad": "Crud para gestionar empleados",
+        "description": "Crud utilizado como enseñanza para aprender a usar angular y algunas de sus funciones",
+        "stack": [
+            {"name": "Angular", "url": "https://cdn.iconscout.com/icon/free/png-256/free-angular-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226070.png"},
+            {"name": "Css", "url": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"}
+        ],
+        "images": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        },
+        "sections": [
+            {"title": "Formulario", "descript": "Permite crear y actualizar valores de los empleados"},
+            {"title": "Enseñanza", "descript": "Sirve como ejemplo para poner en practicas funcionalidades de angular"},
+            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios"}
+        ],
+        "color": "gray",
+        "viewProject": true,
+        "urlProject": "https://ubiquitous-donut-c289af.netlify.app",
+        "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/Crud-angular"
     }
 ]

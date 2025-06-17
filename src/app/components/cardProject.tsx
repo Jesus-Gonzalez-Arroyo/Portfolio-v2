@@ -9,7 +9,7 @@ interface CardProjectProps {
 
 export function CardProject({title = "", image, alt = "", id = ""}: CardProjectProps) {
     return (
-        <div className="w-[90%] m-auto md:w-[45%] md:min-w-[400px]">
+        <div className="w-[90%] m-auto md:min-w-[400px]">
             <Link href={`project/${id}`}> 
                 <section className="mx-auto">
                     <div className="h-fit group">
