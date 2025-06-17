@@ -15,10 +15,12 @@ export default function Layout({ children }: LayoutProps) {
                     <div className="ml-15">
                         <p className="">Jesus Gonzalez</p>
                     </div>
-                    <div className="flex items-center gap-20 mr-[10%]">
-                        <Link href="/">Inicio</Link>
-                        <Link href="/about">Sobre mi</Link>
-                        <Link href="/projects">Proyectos</Link>
+                    <div className="hidden w-[30%] md:block">
+                        <div className='flex items-center gap-20 mr-[10%]'>
+                            <Link href="/">Inicio</Link>
+                            <Link href="/about">Sobre mi</Link>
+                            <Link href="/projects">Proyectos</Link>
+                        </div>
                     </div>
                 </div>
             </header>

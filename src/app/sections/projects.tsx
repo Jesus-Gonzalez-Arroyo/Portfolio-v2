@@ -13,20 +13,20 @@ export function Projects() {
                 <h2 className="text-3xl text-center">Proyectos</h2>
             </div>
             <div>
-                <div className="flex flex-wrap gap-5 w-[80%] max-w-[80%] m-auto">
-                    <div className="w-[45%] m-auto min-w-[400px]">
+                <div className="flex flex-wrap m-auto gap-5 w-[95%] md:w-[80%] 2xl:max-w-[80%]">
+                    <div className="w-full m-auto md:w-[45%] md:min-w-[400px]">
                         <CardProject title='Farmazul' image={Farmazul} alt='Farmazul' id={'1'} />
                     </div>
-                    <div className="w-[45%] m-auto min-w-[400px]">
+                    <div className="w-full m-auto md:w-[45%] md:min-w-[400px]">
                         <CardProject title='Casazul' image={Casazul} alt='Casazul' id={'2'} />
                     </div>
-                    <div className="w-[45%] m-auto min-w-[400px]">
+                    <div className="w-full m-auto md:w-[45%] md:min-w-[400px]">
                         <CardProject title='JuniorDev' image={JuniorLading} alt='LandingPage junior dev' id={'3'} />
                     </div>
-                    <div className="w-[45%] m-auto min-w-[400px]">
+                    <div className="w-full m-auto md:w-[45%] md:min-w-[400px]">
                         <CardProject title='CreditCard' image={CreditCard} alt='CreditCardComponent' id={'4'} />
                     </div>
-                    <div className="w-[45%] m-auto min-w-[400px]">
+                    <div className="w-full m-auto md:w-[45%] md:min-w-[400px]">
                         <CardProject title='CRUD Angular' image={Crud} alt='Crud con angular' id={'5'} />
                     </div>
                 </div>
