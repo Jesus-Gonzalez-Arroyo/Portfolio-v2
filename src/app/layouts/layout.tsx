@@ -1,26 +1,48 @@
+'use client'
 import { FaMapMarkerAlt, FaEnvelope } from 'react-icons/fa'
 import { BsFillTelephoneFill } from "react-icons/bs";
+import { MdMenu, MdCancel } from "react-icons/md";
 import Link from 'next/link'
-import {Skils} from '../sections/skils'
+import { Skils } from '../sections/skils'
+import { useState } from 'react';
 
 type LayoutProps = {
-  children: React.ReactNode;
+    children: React.ReactNode;
+    color: string
 };
 
-export default function Layout({ children }: LayoutProps) {
+export default function Layout({ children, color }: LayoutProps) {
+    const [menu, setMenu] = useState(false)
+
+    function setMenuActive() {
+        setMenu(prev => !prev);
+    }
+
     return (
         <div className='gradient-body'>
             <header>
                 <div className="flex text-white items-center justify-between pt-8 w-full z-5">
-                    <div className="ml-15">
+                    <div className="ml-10 lg:ml-15">
                         <p className="">Jesus Gonzalez</p>
                     </div>
-                    <div className="hidden w-[30%] md:block">
+                    <div className="hidden w-[30%] lg:block">
                         <div className='flex items-center gap-20 mr-[10%]'>
                             <Link href="/">Inicio</Link>
                             <Link href="/about">Sobre mi</Link>
                             <Link href="/projects">Proyectos</Link>
                         </div>
+                    </div>
+                    <div className='mr-10 lg:hidden'>
+                        <MdMenu onClick={setMenuActive} className='w-[28px] h-[28px]' />
+                    </div>
+                </div>
+                <div className={`${menu ? 'block' : 'hidden'} ${color} absolute w-[210px] h-[150px] rounded top-0 right-0 p-5 mt-9 mr-10 lg:hidden`}>
+                    <Link className='block mb-5' href="/">Inicio</Link>
+                    <Link className='block mb-5' href="/about">Sobre mi</Link>
+                    <Link className='block mb-5' href="/projects">Proyectos</Link>
+
+                    <div className='absolute top-0 right-0 mr-2 mt-2'>
+                        <MdCancel onClick={setMenuActive} className='w-[20px] h-[20px]' />
                     </div>
                 </div>
             </header>
