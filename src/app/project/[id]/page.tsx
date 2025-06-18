@@ -37,7 +37,7 @@ type ProjectType = {
     sections: StackSection[]
 };
 
-const colors = {
+const colors: Record<string, string> = {
     "blue": "border-blue-500",
     "red": "border-red-500",
     "green": "border-green-500",
@@ -45,7 +45,7 @@ const colors = {
     "gray": "border-gray-500"
 }
 
-const colorsBg = {
+const colorsBg: Record<string, string> = {
     "blue": "bg-blue-500",
     "red": "bg-red-500",
     "green": "bg-green-500",
@@ -54,8 +54,8 @@ const colorsBg = {
 }
 
 const cursor = {
-    true: "cursor-pointer",
-    false: "pointer-events-none cursor-not-allowed"
+    "show": "cursor-pointer",
+    "hide": "pointer-events-none cursor-not-allowed"
 }
 
 export default function Project() {
@@ -69,10 +69,10 @@ export default function Project() {
     }, [id])
 
     return (
-        <Layout>
+        <Layout color={colorsBg[project?.color as string]}>
             <div className='m-auto mt-[5%] lg: max-w-[80%] mt-[10%]'>
-                <div className='flex items-center justify-between text-7xl'>
-                    <div>
+                <div className='flex flex-wrap items-center justify-between text-7xl lg:flex-nowrap'>
+                    <div className="mb-5 lg:mb-0">
                         <p>{project?.name}</p>
                     </div>
                     <div className='text-3xl'>
@@ -82,8 +82,8 @@ export default function Project() {
                 <div className='my-7 text-2xl'>
                     <p>{project?.description}</p>
                 </div>
-                <div className='flex items-center gap-5 mb-10'>
-                    <button className={`py-2 px-6 ${colorsBg[project?.color]} rounded ${cursor[project?.viewProject]}`}>
+                <div className='flex flex-wrap items-center gap-5 mb-10 lg:flex-nowrap'>
+                    <button className={`py-2 px-6 ${colorsBg[project?.color as string]} rounded ${project?.viewProject ? cursor['show'] : cursor['hide']}`}>
                         <Link target="blank" href={`${project?.urlProject}`}>
                             <div className='flex gap-2 items-center'>
                                 <div>
@@ -95,7 +95,7 @@ export default function Project() {
                             </div>
                         </Link>
                     </button>
-                    <button className={`py-2 px-6 border-[1px] ${colors[project?.color]} rounded`}>
+                    <button className={`py-2 px-6 border-[1px] ${colors[project?.color as string]} rounded`}>
                         <Link target="blank" href={`${project?.urlProjectGit}`}>
                             <div className='flex gap-2 items-center'>
                                 <div>
@@ -108,7 +108,7 @@ export default function Project() {
                         </Link>
                     </button>
                 </div>
-                <div className="grid grid-cols-3 grid-rows-1 gap-7 mb-10">
+                <div className="grid grid-cols-1 grid-rows-1 gap-7 mb-10 lg:grid-cols-3">
                     {
                         project?.sections.map((item, idx) => (
                             <div key={idx} className={`border-[2px] ${colors[project?.color]} px-7 py-3 rounded h-[200px] flex items-center`}>
@@ -120,26 +120,26 @@ export default function Project() {
                         ))
                     }
                 </div>
-                <div className="grid grid-cols-3 grid-rows-1 gap-4">
+                <div className="grid grid-cols-1 grid-rows-1 gap-4 mb-5 lg:grid-cols-3">
                     <div className="col-span-3">
                         <Image className="w-full h-full object-cover rounded-md" src={CreditCard} alt="Imagen 1" />
                     </div>
                 </div>
-                <div className="grid grid-cols-3 grid-rows-1 gap-5 mb-10">
-                    <div className="row-start-2 h-[300px]">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
+                    <div className="h-[200px] sm:h-[250px] md:h-[300px]">
                         <Image className="w-full h-full object-cover rounded-md" src={Casazul} alt="Imagen 2" />
                     </div>
-                    <div className="row-start-2 h-[300px]">
+                    <div className="h-[200px] sm:h-[250px] md:h-[300px]">
                         <Image className="w-full h-full object-cover rounded-md" src={Farmazul} alt="Imagen 3" />
                     </div>
-                    <div className="row-start-2 h-[300px]">
+                    <div className="h-[200px] sm:h-[250px] md:h-[300px]">
                         <Image className="w-full h-full object-cover rounded-md" src={JuniorLading} alt="Imagen 4" />
                     </div>
                 </div>
-                <div className={`w-full border-[1px] ${colors[project?.color]} px-10 py-10 rounded mb-50`}>
+                <div className={`w-full border-[1px] ${colors[project?.color as string]} px-10 py-10 rounded mb-50`}>
                     <p className="mb-8 text-xl">Construido con:</p>
                     <div>
-                        <div className="flex items-center gap-2">
+                        <div className="flex flex-wrap items-center gap-2 lg:flex-nowrap">
                             {project?.stack.map((item, idx) => (
                                 <div className="flex items-center gap-5 m-auto" key={idx}>
                                     <img className="w-[80px] h-[80px] object-contain max-w-none" src={item.url} alt="" />
