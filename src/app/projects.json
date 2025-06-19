@@ -18,9 +18,9 @@
             "4": ""
         },
         "sections": [
-            {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas"},
-            {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas y ganancias"},
-            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios"}
+            {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas."},
+            {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas y ganancias."},
+            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios."}
         ],
         "color": "blue",
         "viewProject": false,
@@ -43,9 +43,9 @@
             "4": ""
         },
         "sections": [
-            {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas"},
-            {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas y ganancias"},
-            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios"}
+            {"title": "Automatizacion", "descript": "Se automatizo todo el proceso de control en la produccion de sus productos"},
+            {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas, ganancias, gasto de insumos, etc."},
+            {"title": "Aplicacion de escritorio", "descript": "Esta aplicacion se adapta al cliente donde no necesita acesso a internet para mirar los datos."}
         ],
         "color": "blue",
         "viewProject": false,
@@ -68,9 +68,9 @@
             "4": ""
         },
         "sections": [
-            {"title": "Enseñanza", "descript": "Buenos profesores, que enseñan todo paso a paso"},
-            {"title": "Sencillez", "descript": "La pagina es breve enfocada en la idea principal para ayudar al usuario"},
-            {"title": "Formulario", "descript": "Donde el usuario puede dejar sus datos y ser contactado"}
+            {"title": "Enseñanza", "descript": "Buenos profesores, que enseñan todo paso a paso."},
+            {"title": "Sencillez", "descript": "La pagina es breve enfocada en la idea principal para ayudar al usuario."},
+            {"title": "Formulario", "descript": "Donde el usuario puede dejar sus datos y ser contactado."}
         ],
         "color": "green",
         "viewProject": true,
@@ -93,9 +93,9 @@
             "4": ""
         },
         "sections": [
-            {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas"},
-            {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas y ganancias"},
-            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios"}
+            {"title": "Sencillez", "descript": "Esta echo 100% con css y javascript."},
+            {"title": "Tamaño", "descript": "Este componente no consumo muchos recursos en la web y es facil de implementar."},
+            {"title": "Enseñanza", "descript": "Sirve igualmente para enseñar el manejo del dom con Javascript y dar estilos con css."}
         ],
         "color": "purple",
         "viewProject": true,
@@ -108,7 +108,7 @@
         "utilidad": "Crud para gestionar empleados",
         "description": "Crud utilizado como enseñanza para aprender a usar angular y algunas de sus funciones",
         "stack": [
-            {"name": "Angular", "url": "https://cdn.iconscout.com/icon/free/png-256/free-angular-logo-icon-download-in-svg-png-gif-file-formats--brand-development-tools-pack-logos-icons-226070.png"},
+            {"name": "Angular", "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png"},
             {"name": "Css", "url": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"}
         ],
         "images": {
@@ -118,9 +118,9 @@
             "4": ""
         },
         "sections": [
-            {"title": "Formulario", "descript": "Permite crear y actualizar valores de los empleados"},
-            {"title": "Enseñanza", "descript": "Sirve como ejemplo para poner en practicas funcionalidades de angular"},
-            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios"}
+            {"title": "Formulario", "descript": "Permite crear y actualizar valores de los empleados."},
+            {"title": "Enseñanza", "descript": "Sirve como ejemplo para poner en practicas funcionalidades de angular."},
+            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios."}
         ],
         "color": "gray",
         "viewProject": true,

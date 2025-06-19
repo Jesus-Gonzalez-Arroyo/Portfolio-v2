@@ -8,7 +8,7 @@ export default function Init() {
                 <div className='h-[100vh] 2xl:h-[80vh]'>
                     <AboutMe />
                 </div>
-                <div className='mb-[10%] xl:my-[0%] xl:mb-[5%]'>
+                <div className='mb-25 xl:my-[0%] xl:mb-[5%]'>
                     <Dates />
                 </div>
                 <div className='mb-40'>

@@ -11,7 +11,7 @@ type LayoutProps = {
     color: string
 };
 
-export default function Layout({ children, color }: LayoutProps) {
+export default function Layout({ children, color="bg-blue-500" }: LayoutProps) {
     const [menu, setMenu] = useState(false)
 
     function setMenuActive() {
@@ -25,18 +25,18 @@ export default function Layout({ children, color }: LayoutProps) {
                     <div className="ml-10 lg:ml-15">
                         <p className="">Jesus Gonzalez</p>
                     </div>
-                    <div className="hidden w-[30%] lg:block">
+                    <div className="hidden w-[30%] xl:block">
                         <div className='flex items-center gap-20 mr-[10%]'>
                             <Link href="/">Inicio</Link>
                             <Link href="/about">Sobre mi</Link>
                             <Link href="/projects">Proyectos</Link>
                         </div>
                     </div>
-                    <div className='mr-10 lg:hidden'>
+                    <div className='mr-10 xl:hidden'>
                         <MdMenu onClick={setMenuActive} className='w-[28px] h-[28px]' />
                     </div>
                 </div>
-                <div className={`${menu ? 'block' : 'hidden'} ${color} absolute w-[210px] h-[150px] rounded top-0 right-0 p-5 mt-9 mr-10 lg:hidden`}>
+                <div className={`${menu ? 'block' : 'hidden'} ${color} absolute w-[210px] h-[150px] rounded top-0 right-0 p-5 mt-9 mr-10 xl:hidden`}>
                     <Link className='block mb-5' href="/">Inicio</Link>
                     <Link className='block mb-5' href="/about">Sobre mi</Link>
                     <Link className='block mb-5' href="/projects">Proyectos</Link>
@@ -57,7 +57,7 @@ export default function Layout({ children, color }: LayoutProps) {
                     <div>
                         <h2 className="text-2xl font-semibold">Jesus Gonzalez.</h2>
                         <p className="text-gray-400 mt-4">
-                            Contactame a traves de los canales disponibles.
+                            Siempre dispuesto a dar lo mejor de mi.
                         </p>
                     </div>
                     <div>

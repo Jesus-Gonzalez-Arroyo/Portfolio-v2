@@ -1,7 +1,7 @@
 export function Dates () {
     return (
-        <div className="w-[50%] mb-10 md:w-[100%] xl:w-[50%] m-auto">
-            <div className="flex flex-wrap justify-between lg:flex lg:justify-between">
+        <div className="w-[50%] mb-10 md:w-[80%] xl:w-[50%] m-auto">
+            <div className="flex gap-5 flex-wrap justify-center md:gap-10 lg:justify-between flex">
                 <div className="flex items-center gap-2">
                     <div className="text-7xl font-medium">
                         <p>3</p>
