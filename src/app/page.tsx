@@ -1,4 +1,4 @@
-import Init from './init/index'
+import Init from '../app/init/index'
 
 export default function Home() {
   return (

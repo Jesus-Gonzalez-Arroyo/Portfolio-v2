@@ -17,15 +17,23 @@ export function AboutMe() {
                             <div>
                                 <div className="flex flex-wrap gap-10 min-w-[300px] items-center justify-between mt-5 lg:flex-nowrap">
                                     <div>
-                                        <button className="flex items-center gap-3 bg-blue-500 rounded-md px-8 py-3 text-white">
-                                            Descargar CV
-                                            <LuDownload size={20} />
-                                        </button>
+                                        <a download target="_blank" href="https://imagesportafliov2.s3.us-east-2.amazonaws.com/Cv+Jesus+Gonzalez.pdf">
+                                            <button className="flex items-center gap-3 bg-blue-500 rounded-md px-8 py-3 text-white">
+                                                Descargar CV
+                                                <LuDownload size={20} />
+                                            </button>
+                                        </a>
                                     </div>
                                     <div className="flex items-center gap-8 mr-15">
-                                        <FaLinkedinIn size={28} />
-                                        <FaGithub size={28} />
-                                        <CgMail size={28} />
+                                        <a target="_blank" href="https://www.linkedin.com/in/jesusdavidgonzalez/">
+                                            <FaLinkedinIn size={28} />
+                                        </a>
+                                        <a target="_blank" href="https://github.com/Jesus-Gonzalez-Arroyo">
+                                            <FaGithub size={28} />
+                                        </a>
+                                        <a href="mailto:jesusdavidgonzales1102@gmail.com?subject=Consulta%20desde%20mi%20portafolio&body=Hola%2C%20me%20gust%C3%B3%20tu%20portafolio%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre..." target="_blank" rel="noopener noreferrer">
+                                            <CgMail size={28} />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
