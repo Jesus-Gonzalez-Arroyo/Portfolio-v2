@@ -1,15 +1,10 @@
 'use client'
-import Image from "next/image";
 import Link from 'next/link'
 import Layout from '../../layouts/layout'
 import { BsArrowUpRight } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import JsonProjects from '../../projects.json'
 
-import CreditCard from '../../../../public/creditCard.png'
-import JuniorLading from '../../../../public/juniorLading.png'
-import Farmazul from '../../../../public/farmazul.png'
-import Casazul from '../../../../public/casazul.png'
 import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 
@@ -23,13 +18,20 @@ type StackSection = {
     descript: string;
 };
 
+type StackImage = {
+    img1: string
+    img2: string
+    img3: string
+    img4: string
+}
+
 type ProjectType = {
     id: string;
     name: string;
     utilidad: string;
     description: string;
     stack: StackItem[];
-    images: Record<string, string>;
+    images: StackImage;
     color: string;
     viewProject: boolean;
     urlProject: string;
@@ -122,18 +124,18 @@ export default function Project() {
                 </div>
                 <div className="grid grid-cols-1 grid-rows-1 gap-4 mb-5 lg:grid-cols-3">
                     <div className="col-span-3">
-                        <Image className="w-full h-full object-cover rounded-md" src={CreditCard} alt="Imagen 1" />
+                        <img className="w-full h-full object-contain rounded-md" src={`${project?.images.img1}`} alt="Imagen 1" />
                     </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
                     <div className="h-[200px] sm:h-[250px] md:h-[300px]">
-                        <Image className="w-full h-full object-cover rounded-md" src={Casazul} alt="Imagen 2" />
+                        <img className="w-full h-full object-cover rounded-md" src={`${project?.images.img2}`} alt="Imagen 2" />
                     </div>
                     <div className="h-[200px] sm:h-[250px] md:h-[300px]">
-                        <Image className="w-full h-full object-cover rounded-md" src={Farmazul} alt="Imagen 3" />
+                        <img className="w-full h-full object-cover rounded-md" src={`${project?.images.img3}`} alt="Imagen 3" />
                     </div>
                     <div className="h-[200px] sm:h-[250px] md:h-[300px]">
-                        <Image className="w-full h-full object-cover rounded-md" src={JuniorLading} alt="Imagen 4" />
+                        <img className="w-full h-full object-cover rounded-md" src={`${project?.images.img4}`} alt="Imagen 4" />
                     </div>
                 </div>
                 <div className={`w-full border-[1px] ${colors[project?.color as string]} px-10 py-10 rounded mb-50`}>

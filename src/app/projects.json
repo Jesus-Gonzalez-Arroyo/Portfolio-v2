@@ -12,10 +12,10 @@
             {"name": "Boostrapt", "url":"https://camo.githubusercontent.com/ecd695fb1ffadab6633f9fcdffaeebc58f3cca722260f0dec7dc607bd9d0e740/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67"}
         ],
         "images": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+            "img1": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/farmazul/farmazul4.png",
+            "img2": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/farmazul/farmazul2.png",
+            "img3": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/farmazul/farmazul3.png",
+            "img4": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/farmazul/farmazul1.png"
         },
         "sections": [
             {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas."},
@@ -37,10 +37,10 @@
             {"name": "Sqlite", "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png"}
         ],
         "images": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+            "img1": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/casazul/sistemacontable1.png",
+            "img2": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/casazul/sistemacontable2.png",
+            "img3": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/casazul/sistemacontable3.png",
+            "img4": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/casazul/sistemacontable4.png"
         },
         "sections": [
             {"title": "Automatizacion", "descript": "Se automatizo todo el proceso de control en la produccion de sus productos"},
@@ -62,10 +62,10 @@
             {"name": "Tailwind", "url": "https://miro.medium.com/v2/resize:fit:512/1*JEHLmWo6_SrpHPiP4AimIw.png"}
         ],
         "images": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+            "img1": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/junior-landing/juniorLading1.png",
+            "img2": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/junior-landing/juniorLading2.png",
+            "img3": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/junior-landing/juniorLading3.png",
+            "img4": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/junior-landing/juniorLading4.png"
         },
         "sections": [
             {"title": "Enseñanza", "descript": "Buenos profesores, que enseñan todo paso a paso."},
@@ -87,10 +87,10 @@
             {"name": "Css", "url": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"}
         ],
         "images": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+            "img1": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/credit-card/creditcard1.png",
+            "img2": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/credit-card/creditcard2.png",
+            "img3": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/credit-card/creditcard3.png",
+            "img4": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/credit-card/creditcard4.png"
         },
         "sections": [
             {"title": "Sencillez", "descript": "Esta echo 100% con css y javascript."},
@@ -112,10 +112,10 @@
             {"name": "Css", "url": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"}
         ],
         "images": {
-            "1": "",
-            "2": "",
-            "3": "",
-            "4": ""
+            "img1": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/crud-angular/crud1.png",
+            "img2": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/crud-angular/crud2.png",
+            "img3": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/crud-angular/crud3.png",
+            "img4": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/crud-angular/crud4.png"
         },
         "sections": [
             {"title": "Formulario", "descript": "Permite crear y actualizar valores de los empleados."},
