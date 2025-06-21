@@ -8,10 +8,9 @@ import { useState } from 'react';
 
 type LayoutProps = {
     children: React.ReactNode;
-    color: string
 };
 
-export default function Layout({ children, color="bg-blue-500" }: LayoutProps) {
+export default function Layout({ children }: LayoutProps) {
     const [menu, setMenu] = useState(false)
 
     function setMenuActive() {
@@ -36,7 +35,7 @@ export default function Layout({ children, color="bg-blue-500" }: LayoutProps) {
                         <MdMenu onClick={setMenuActive} className='w-[28px] h-[28px]' />
                     </div>
                 </div>
-                <div className={`${menu ? 'block' : 'hidden'} ${color} absolute w-[210px] h-[150px] rounded top-0 right-0 p-5 mt-9 mr-10 xl:hidden`}>
+                <div className={`${menu ? 'block' : 'hidden'} bg-blue-500 absolute w-[210px] h-[150px] rounded top-0 right-0 p-5 mt-9 mr-10 xl:hidden`}>
                     <Link className='block mb-5' href="/">Inicio</Link>
                     <Link className='block mb-5' href="/about">Sobre mi</Link>
                     <Link className='block mb-5' href="/projects">Proyectos</Link>
