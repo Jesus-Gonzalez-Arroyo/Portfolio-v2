@@ -75,7 +75,7 @@ export default function Project() {
             <div className='m-auto mt-[5%] lg: max-w-[80%] mt-[10%]'>
                 <div className='flex flex-wrap items-center justify-between text-7xl lg:flex-nowrap'>
                     <div className="mb-5 lg:mb-0">
-                        <p>{project?.name}</p>
+                        <p className='text-5xl'>{project?.name}</p>
                     </div>
                     <div className='text-3xl'>
                         <p>{project?.utilidad}</p>
