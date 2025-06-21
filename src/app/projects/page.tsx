@@ -1,7 +1,7 @@
 import Layout from '../layouts/layout'
 import {CardProject} from '../../app/components/cardProject'
 import CreditCard from '../../../public/creditCard.png'
-import Crud from '../../../public/crud.png'
+/* import Crud from '../../../public/crud.png' */
 import JuniorLading from '../../../public/juniorLading.png'
 import Farmazul from '../../../public/farmazul.png'
 import Casazul from '../../../public/casazul.png'
@@ -31,9 +31,9 @@ export default function Projects() {
                     <div className="w-[45%] m-auto min-w-[400px]">
                         <CardProject title='CreditCard' image={CreditCard} alt='CreditCardComponent' id={'4'} />
                     </div>
-                    <div className="w-[45%] m-auto min-w-[400px]">
+                    {/* <div className="w-[45%] m-auto min-w-[400px]">
                         <CardProject title='CRUD Angular' image={Crud} alt='Crud con angular' id={'5'} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </Layout>

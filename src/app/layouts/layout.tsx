@@ -81,7 +81,7 @@ export default function Layout({ children, color="bg-blue-500" }: LayoutProps) {
                     <div>
                         <h3 className="text-lg font-semibold mb-3">Servicios</h3>
                         <ul className="space-y-2 text-gray-300">
-                            <li>Desarrollo Web, Movil y Mantenimiento</li>
+                            <li>Desarrollo Web y Mantenimiento</li>
                             <li>Desarrollo de Software</li>
                             <li>Desarrollo Frontend</li>
                             <li>Desarrollo Backend</li>
