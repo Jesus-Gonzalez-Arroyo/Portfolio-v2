@@ -1,7 +1,7 @@
 /* import Image from "next/image" */
 import {CardProject} from '../components/cardProject'
 import CreditCard from '../../../public/creditCard.png'
-import Crud from '../../../public/crud.png'
+/* import Crud from '../../../public/crud.png' */
 import JuniorLading from '../../../public/juniorLading.png'
 import Farmazul from '../../../public/farmazul.png'
 import Casazul from '../../../public/casazul.png'
@@ -26,9 +26,9 @@ export function Projects() {
                     <div className="w-[95%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
                         <CardProject title='CreditCard' image={CreditCard} alt='CreditCardComponent' id={'4'} />
                     </div>
-                    <div className="w-[95%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
+                    {/* <div className="w-[95%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
                         <CardProject title='CRUD Angular' image={Crud} alt='Crud con angular' id={'5'} />
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

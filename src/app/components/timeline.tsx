@@ -11,11 +11,18 @@ const experiences = [
             'Me encargo del desarrollo de las interfaces, las funcionalidades, consumo de aPIS, desarrollo componentes, implemento gateways de pago, testing y colaboro en algunas funciones del backend.',
     },
     {
-        year: 'Feb 2022 - PRESENTE',
+        year: 'Ene 2025 - Abr 2025',
         title: 'Desarrollador Fullstack',
         company: 'Autónomo',
         description:
-            'Diseño y desarrollo aplicaciones y sitios web robustos, escalables y atractivos visualmente, aplicando las mejores prácticas en desarrollo y arquitectura de software.',
+            'Diseño y desarrollo de una aplicacion web para la gestion de productos, ventas, usuarios con roles, reportes y gastos de una farmacia. Utilizando React y bootstrap para el frontend, Python con Flask y MongoDB para el backend.',
+    },
+    {
+        year: 'Feb 2022 - Mayo 2022',
+        title: 'Desarrollador Fullstack',
+        company: 'Autónomo',
+        description:
+            'Desarrollo de una aplicacion de escritorio para la gestion de inventarios, ventas, facturacion, etc. Utilizando Python y Tkinter, con una base de datos en SQLite.',
     }
 ]
 
@@ -32,7 +39,7 @@ const Studios = [
 export default function Timeline({isStudio}: studies) {
     return (
         <section className="py-16">
-            <div className="border-l-3 border-gray-700 pl-6 relative">
+            <div className="border-l-3 border-white pl-6 relative">
                 {isStudio ? Studios.map((exp, idx) => (
                     <div key={idx} className="mb-16 relative">
                         <span className="absolute border-1 border-white top-[19px] w-[45px] -left-[25px]"></span>
