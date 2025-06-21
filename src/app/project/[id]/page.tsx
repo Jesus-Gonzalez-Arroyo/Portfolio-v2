@@ -71,7 +71,7 @@ export default function Project() {
     }, [id])
 
     return (
-        <Layout color={colorsBg[project?.color as string]}>
+        <Layout>
             <div className='m-auto mt-[5%] lg: max-w-[80%] mt-[10%]'>
                 <div className='flex flex-wrap items-center justify-between text-7xl lg:flex-nowrap'>
                     <div className="mb-5 lg:mb-0">
