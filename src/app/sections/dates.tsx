@@ -4,7 +4,7 @@ export function Dates () {
             <div className="flex gap-5 flex-wrap justify-center md:gap-10 lg:justify-between flex">
                 <div className="flex items-center gap-2">
                     <div className="text-7xl font-medium">
-                        <p>3</p>
+                        <p>+2</p>
                     </div>
                     <div className="text-md font-bold">
                         <p>Años de</p>

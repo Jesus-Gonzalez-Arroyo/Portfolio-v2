@@ -9,7 +9,7 @@ export default function AboutMe() {
                 <div className='w-[80%] m-auto text-left'>
                     <p className='text-7xl mb-3'>Sobre mi</p>
                     <div className='mb-10'>
-                        <p className='text-xl'>Con 3 años de experiencia y un buen historial de proyectos y colaboraciones, estoy dispuesto y preparado para afrontar cualquier reto.</p>
+                        <p className='text-xl'>Con mas de 2 años de experiencia y un buen historial de proyectos y colaboraciones, estoy dispuesto y preparado para afrontar cualquier reto.</p>
                     </div>
                 </div>
             </div>

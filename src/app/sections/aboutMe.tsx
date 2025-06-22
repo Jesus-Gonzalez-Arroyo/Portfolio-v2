@@ -13,7 +13,7 @@ export function AboutMe() {
                         <div className="mb-20">
                             <p className="text-3xl color-white">Hola, soy Jesus</p>
                             <p className="text-5xl my-3 2xl:text-7xl">Desarrollador Frontend & Backend</p>
-                            <p className="text-lg">Cuento con 3 años de experiencia en la creación de aplicaciones fullstack robustas, escalables e interactivas.</p>
+                            <p className="text-lg">Cuento con mas de 2 años de experiencia en la creación de aplicaciones fullstack robustas, escalables e interactivas.</p>
                             <div>
                                 <div className="flex flex-wrap gap-10 min-w-[300px] items-center justify-between mt-5 lg:flex-nowrap">
                                     <div>
