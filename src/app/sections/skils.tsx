@@ -16,7 +16,7 @@ const stackTech = [
     'https://camo.githubusercontent.com/ecd695fb1ffadab6633f9fcdffaeebc58f3cca722260f0dec7dc607bd9d0e740/68747470733a2f2f676574626f6f7473747261702e636f6d2f646f63732f352e322f6173736574732f6272616e642f626f6f7473747261702d6c6f676f2d736861646f772e706e67',
     'https://img.icons8.com/color/512/sass.png',
     'https://static-00.iconduck.com/assets.00/jest-icon-1855x2048-ifiupldr.png',
-    'https://cdn-icons-png.flaticon.com/512/25/25231.png'
+    'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png'
 ];
 
 export function Skils() {
