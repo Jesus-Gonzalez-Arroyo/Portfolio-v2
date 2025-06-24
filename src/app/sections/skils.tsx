@@ -8,7 +8,7 @@ const stackTech = [
     'https://img.icons8.com/color/512/express-js.png',
     'https://cdn.iconscout.com/icon/free/png-256/free-python-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-5-pack-logos-icons-2945099.png?f=webp&w=256',
     'https://static-00.iconduck.com/assets.00/flask-icon-399x512-v0hqbifs.png',
-    'https://files.svgcdn.io/logos/fastapi.png',
+    'https://www.honeybadger.io/images/blog/posts/honeybadger-fastapi-python/fastapi-logo.png',
     'https://cdn.iconscout.com/icon/free/png-256/free-mysql-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-brand-vol-5-pack-logos-icons-3030165.png?f=webp&w=256',
     'https://static-00.iconduck.com/assets.00/sqlite-icon-2048x909-7nkrc3bm.png',
     'https://images.icon-icons.com/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png',
