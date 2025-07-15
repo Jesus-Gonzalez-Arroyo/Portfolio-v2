@@ -7,6 +7,7 @@ const stackTech = [
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/node+js',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/express-js.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/python.webp',
+    'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/django.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/flask.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/fastapi-logo.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/mysql.png',
@@ -16,6 +17,7 @@ const stackTech = [
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/boostrapt.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/sass.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/jest.png',
+    'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/Docker-Logo.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/Git.png'
 ];
 

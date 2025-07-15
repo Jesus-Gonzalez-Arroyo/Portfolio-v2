@@ -4,11 +4,11 @@ interface studies {
 
 const experiences = [
     {
-        year: 'Abr 2023 - PRESENTE',
+        year: 'Abr 2023 - Jun 2025',
         title: 'Desarrollador Frontend',
         company: 'Wigilabs',
         description:
-            'Me encargo del desarrollo de las interfaces, las funcionalidades, consumo de aPIS, desarrollo componentes, implemento gateways de pago, testing y colaboro en algunas funciones del backend.',
+            'Encargado del desarrollo de interfaces modernas y responsives totalmente funcionales, extrayendo y modificando información de los usuarios a través del consumo de endpoints, uso de arquitecturas de software para un código limpio y legible, trabajando bajo metodologías scrum, además creó y ejecutó pruebas unitarias para el buen comportamiento de cada funcionalidad, entre otras funciones.',
     },
     {
         year: 'Ene 2025 - Abr 2025',
