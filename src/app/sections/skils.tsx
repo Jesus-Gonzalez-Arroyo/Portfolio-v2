@@ -13,6 +13,7 @@ const stackTech = [
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/mysql.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/sqlite',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/mongodb.webp',
+    'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/postgresql-logo.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/tailwindcss.webp',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/boostrapt.png',
     'https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/sass.png',

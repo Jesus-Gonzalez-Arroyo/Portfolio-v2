@@ -1,6 +1,4 @@
 export {AboutMe} from './aboutMe'
-export {Contact} from './contac'
-export {Experiencie} from './experience'
 export {Projects} from './projects'
 export {Skils} from './skils'
 export {Dates} from './dates'

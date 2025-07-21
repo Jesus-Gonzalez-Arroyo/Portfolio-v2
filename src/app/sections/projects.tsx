@@ -1,10 +1,8 @@
-/* import Image from "next/image" */
 import {CardProject} from '../components/cardProject'
-import CreditCard from '../../../public/creditCard.png'
-/* import Crud from '../../../public/crud.png' */
 import JuniorLading from '../../../public/juniorLading.png'
 import Farmazul from '../../../public/farmazul.png'
 import Casazul from '../../../public/casazul.png'
+import ApiCatsUsers from '../../../public/api-cats-1.png'
 
 export function Projects() {
     return (
@@ -23,12 +21,9 @@ export function Projects() {
                     <div className="w-[95%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
                         <CardProject title='JuniorDev' image={JuniorLading} alt='LandingPage junior dev' id={'3'} />
                     </div>
-                    <div className="w-[95%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
-                        <CardProject title='CreditCard' image={CreditCard} alt='CreditCardComponent' id={'4'} />
+                     <div className="w-[100%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
+                        <CardProject title='Api Cats Users' image={ApiCatsUsers} alt='Api Cats Users' id={'5'} />
                     </div>
-                    {/* <div className="w-[95%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
-                        <CardProject title='CRUD Angular' image={Crud} alt='Crud con angular' id={'5'} />
-                    </div> */}
                 </div>
             </div>
         </div>

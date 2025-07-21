@@ -104,27 +104,30 @@
     },
     {
         "id": "5",
-        "name": "Crud empleados",
-        "utilidad": "Crud para gestionar empleados",
-        "description": "Crud utilizado como enseñanza para aprender a usar angular y algunas de sus funciones",
+        "name": "Api Cats Users",
+        "utilidad": "Gestionar informacion",
+        "description": "Este proyecto expone una API RESTful con FastAPI y MongoDB para consultar razas de gatos (usando TheCatAPI) y gestionar usuarios.",
         "stack": [
-            {"name": "Angular", "url": "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/21_Angular_logo_logos-512.png"},
-            {"name": "Css", "url": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png"}
+            {"name": "Python", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/python.webp"},
+            {"name": "FastAPI", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/fastapi-logo.png"},
+            {"name": "Mongo DB", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/mongodb.webp"},
+            {"name": "Docker", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/Docker-Logo.png"},
+            {"name": "JWT", "url": "https://img.icons8.com/?size=512&id=rHpveptSuwDz&format=png"}
         ],
         "images": {
-            "img1": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/crud-angular/crud1.png",
-            "img2": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/crud-angular/crud2.png",
-            "img3": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/crud-angular/crud3.png",
-            "img4": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/crud-angular/crud4.png"
+            "img1": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/api-cats-users/api-cats-1.png",
+            "img2": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/api-cats-users/api-cats-2.png",
+            "img3": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/api-cats-users/api-cats-3.png",
+            "img4": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/api-cats-users/api-cats-4.png"
         },
         "sections": [
-            {"title": "Formulario", "descript": "Permite crear y actualizar valores de los empleados."},
-            {"title": "Enseñanza", "descript": "Sirve como ejemplo para poner en practicas funcionalidades de angular."},
-            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios."}
+            {"title": "Gestion", "descript": "Permite obtener, crear y loguear a los usuarios."},
+            {"title": "Consumo externo", "descript": "Consumo de api externa para extraer la informacion."},
+            {"title": "Pruebas unitarias", "descript": "Creacion y ejecucion de tests para la verificacion del buen funcionamiento."}
         ],
-        "color": "gray",
+        "color": "blue",
         "viewProject": true,
-        "urlProject": "https://ubiquitous-donut-c289af.netlify.app",
-        "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/Crud-angular"
+        "urlProject": "https://api-cats-users-1.onrender.com/docs",
+        "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/api-cats-users"
     }
 ]
