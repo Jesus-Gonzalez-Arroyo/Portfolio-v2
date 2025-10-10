@@ -129,5 +129,35 @@
         "viewProject": true,
         "urlProject": "https://api-cats-users-1.onrender.com/docs",
         "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/api-cats-users"
+    },
+    {
+        "id": "6",
+        "name": "Restaurant App",
+        "utilidad": "App para la gestión de restaurantes",
+        "description": "Esta app permite gestionar un restaurante, con funcionalidades para administrar el menu, tomar pedidos y gestionar mesas, etc.",
+        "stack": [
+            {"name": "Angular", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/angular.png"},
+            {"name": "Tailwind", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/tailwindcss.webp"},
+            {"name": "NodeJs", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/node+js"},
+            {"name": "Express", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/express-js.png"},
+            {"name": "PostgreSQL", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/postgresql-logo.png"},
+            {"name": "Docker", "url": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/tecnologias/Docker-Logo.png"},
+            {"name": "JWT", "url": "https://img.icons8.com/?size=512&id=rHpveptSuwDz&format=png"}
+        ],
+        "images": {
+            "img1": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/System_POS/POS_2.jpg",
+            "img2": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/System_POS/POS_3.jpg",
+            "img3": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/System_POS/POS_4.jpg",
+            "img4": "https://imagesportafliov2.s3.us-east-2.amazonaws.com/System_POS/POS_5.jpg"
+        },
+        "sections": [
+            {"title": "Facilidad", "descript": "El sistema esta pensado para que cualquier persona pueda usarlo."},
+            {"title": "Rendimiento", "descript": "El uso de una base de datos relacional permite un mejor rendimiento y seguridad."},
+            {"title": "Desarrollo", "descript": "El sistema aun se encuentra en desarrollo, esta disponible muy pronto."}
+        ],
+        "color": "blue",
+        "viewProject": false,
+        "urlProject": "",
+        "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/POS_RESTAURANT"
     }
 ]

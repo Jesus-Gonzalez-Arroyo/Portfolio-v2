@@ -5,6 +5,7 @@ import JuniorLading from '../../../public/juniorLading.png'
 import Farmazul from '../../../public/farmazul.png'
 import Casazul from '../../../public/casazul.png'
 import ApiCatsUsers from '../../../public/api-cats-1.png'
+import POS_Restaurant from '../../../public/pos_restaurant.jpg'
 
 export default function Projects() {
     return (
@@ -33,6 +34,9 @@ export default function Projects() {
                     </div>
                     <div className="w-[100%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
                         <CardProject title='Api Cats Users' image={ApiCatsUsers} alt='Api Cats Users' id={'5'} />
+                    </div>
+                    <div className="w-[100%] m-auto md:w-[100%] lg:w-[45%] xl:w-[47%]">
+                        <CardProject title='App Restaurant' image={POS_Restaurant} alt='App Restaurant' id={'6'} />
                     </div>
                 </div>
             </div>
