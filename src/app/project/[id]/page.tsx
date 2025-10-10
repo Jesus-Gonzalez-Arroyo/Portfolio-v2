@@ -129,13 +129,13 @@ export default function Project() {
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
                     <div className="h-[200px] sm:h-[250px] md:h-[300px]">
-                        <img className="w-full h-full object-cover rounded-md" src={`${project?.images.img2}`} alt="Imagen 2" />
+                        <img className="w-full h-full object-contain rounded-md" src={`${project?.images.img2}`} alt="Imagen 2" />
                     </div>
                     <div className="h-[200px] sm:h-[250px] md:h-[300px]">
-                        <img className="w-full h-full object-cover rounded-md" src={`${project?.images.img3}`} alt="Imagen 3" />
+                        <img className="w-full h-full object-contain rounded-md" src={`${project?.images.img3}`} alt="Imagen 3" />
                     </div>
                     <div className="h-[200px] sm:h-[250px] md:h-[300px]">
-                        <img className="w-full h-full object-cover rounded-md" src={`${project?.images.img4}`} alt="Imagen 4" />
+                        <img className="w-full h-full object-contain rounded-md" src={`${project?.images.img4}`} alt="Imagen 4" />
                     </div>
                 </div>
                 <div className={`w-full border-[1px] ${colors[project?.color as string]} px-10 py-10 rounded mb-50`}>
