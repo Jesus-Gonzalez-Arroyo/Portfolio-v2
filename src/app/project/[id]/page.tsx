@@ -141,7 +141,7 @@ export default function Project() {
                 <div className={`w-full border-[1px] ${colors[project?.color as string]} px-10 py-10 rounded mb-50`}>
                     <p className="mb-8 text-xl">Construido con:</p>
                     <div>
-                        <div className="flex flex-wrap items-center gap-4 xl:flex-nowrap">
+                        <div className="flex flex-wrap items-center gap-4">
                             {project?.stack.map((item, idx) => (
                                 <div className="flex items-center gap-5 m-auto" key={idx}>
                                     <img className="w-[80px] h-[80px] object-contain max-w-none" src={item.url} alt="" />
