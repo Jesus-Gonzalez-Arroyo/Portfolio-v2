@@ -20,11 +20,11 @@
         "sections": [
             {"title": "Ventas", "descript": "Permite al rol vendedor obtener productos actualizados del admin y realizar ventas."},
             {"title": "Dashboard", "descript": "Con datos relevantes para el administrador, como total de ventas y ganancias."},
-            {"title": "Registro", "descript": "El administrador es el unico que puede crear y asignar roles a los usuarios."}
+            {"title": "Credenciales", "descript": "Usuario: admin1102@gmail.com, Contraseña: 123456"}
         ],
         "color": "blue",
-        "viewProject": false,
-        "urlProject": "",
+        "viewProject": true,
+        "urlProject": "https://farmazul.vercel.app/",
         "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/Farmazul"
     },
     {
@@ -153,11 +153,11 @@
         "sections": [
             {"title": "Facilidad", "descript": "El sistema esta pensado para que cualquier persona pueda usarlo."},
             {"title": "Rendimiento", "descript": "El uso de una base de datos relacional permite un mejor rendimiento y seguridad."},
-            {"title": "Desarrollo", "descript": "El sistema aun se encuentra en desarrollo, esta disponible muy pronto."}
+            {"title": "Credenciales", "descript": "Usuario: admin1102@gmail.com, Contraseña: 123456"}
         ],
         "color": "blue",
-        "viewProject": false,
-        "urlProject": "",
+        "viewProject": true,
+        "urlProject": "https://pos-restaurant-pi.vercel.app/",
         "urlProjectGit": "https://github.com/Jesus-Gonzalez-Arroyo/POS_RESTAURANT"
     }
 ]
