@@ -64,6 +64,7 @@ export default function Project() {
     const params = useParams();
     const id = params.id as string;
     const [project, setProject] = useState<ProjectType | null>(null)
+    const [modalImage, setModalImage] = useState<string | null>(null)
 
     useEffect(() => {
         const found = JsonProjects.find(proj => String(proj.id) === String(id));
@@ -72,6 +73,30 @@ export default function Project() {
 
     return (
         <Layout>
+            {/* Modal para imagen en grande */}
+            {modalImage && (
+                <div 
+                    className="fixed inset-0 bg-black bg-opacity-90 z-50 flex items-center justify-center p-4"
+                    onMouseEnter={() => setModalImage(modalImage)}
+                    onMouseLeave={() => setModalImage(null)}
+                >
+                    <button
+                        onClick={() => setModalImage(null)}
+                        className="absolute top-4 right-4 text-white text-4xl font-bold hover:text-gray-300 transition-colors z-10"
+                        aria-label="Cerrar modal"
+                    >
+                        ×
+                    </button>
+                    <div className="relative max-w-7xl max-h-[90vh] w-full h-full flex items-center justify-center">
+                        <img 
+                            className="max-w-full max-h-full object-contain rounded-lg shadow-2xl" 
+                            src={modalImage} 
+                            alt="Imagen ampliada" 
+                        />
+                    </div>
+                </div>
+            )}
+            
             <div className='m-auto mt-[5%] lg: max-w-[80%] mt-[10%]'>
                 <div className='flex flex-wrap items-center justify-between text-7xl lg:flex-nowrap'>
                     <div className="mb-5 lg:mb-0">
@@ -128,13 +153,25 @@ export default function Project() {
                     </div>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 mb-10">
-                    <div className="h-[200px] sm:h-[250px] md:h-[300px]">
+                    <div 
+                        className="h-[200px] sm:h-[250px] md:h-[300px] cursor-pointer transition-transform hover:scale-105"
+                        onMouseEnter={() => setModalImage(project?.images.img2 || null)}
+                        onMouseLeave={() => setModalImage(null)}
+                    >
                         <img className="w-full h-full object-contain rounded-md" src={`${project?.images.img2}`} alt="Imagen 2" />
                     </div>
-                    <div className="h-[200px] sm:h-[250px] md:h-[300px]">
+                    <div 
+                        className="h-[200px] sm:h-[250px] md:h-[300px] cursor-pointer transition-transform hover:scale-105"
+                        onMouseEnter={() => setModalImage(project?.images.img3 || null)}
+                        onMouseLeave={() => setModalImage(null)}
+                    >
                         <img className="w-full h-full object-contain rounded-md" src={`${project?.images.img3}`} alt="Imagen 3" />
                     </div>
-                    <div className="h-[200px] sm:h-[250px] md:h-[300px]">
+                    <div 
+                        className="h-[200px] sm:h-[250px] md:h-[300px] cursor-pointer transition-transform hover:scale-105"
+                        onMouseEnter={() => setModalImage(project?.images.img4 || null)}
+                        onMouseLeave={() => setModalImage(null)}
+                    >
                         <img className="w-full h-full object-contain rounded-md" src={`${project?.images.img4}`} alt="Imagen 4" />
                     </div>
                 </div>
